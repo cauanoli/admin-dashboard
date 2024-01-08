@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-section">
+        <div class="search">
+          <img
+            src="./assets/icons/search_FILL0_wght400_GRAD0_opsz24.svg"
+            alt="search for projects and other media"
+          />
+          <input type="search" name="query" id="query" />
+        </div>
+      </div>
+      <div class="header-section">
+        <div class="welcome-message">
+          <img src="https://www.github.com/cauanoli.png" alt="" />
+          <p>
+            <span class="message">Hi there,</span>
+            User Name @username
+          </p>
+        </div>
+        <div class="projects-actions">
+          <ul>
+            <li><button class="button primary">new</button></li>
+            <li><button class="button primary">upload</button></li>
+            <li><button class="button primary">share</button></li>
+          </ul>
+        </div>
+      </div>
+      <div class="profile-section">
+        <div class="action-icon-buttons">
+          <ul>
+            <li>
+              <button class="icon toggle-notifications">
+                <img
+                  src="./assets/icons/notifications_active_FILL0_wght400_GRAD0_opsz24.svg"
+                  alt="toggle notifications"
+                />
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div class="profile">
+          <img
+            src="https://www.github.com/cauanoli.png"
+            alt="your profile picture"
+          />
+          <span>User name</span>
+        </div>
+      </div>
+    </header>
+    <div class="sidebar">
+      <div class="logo">
+        <a href="#">
+          <img
+            src="./assets/icons/dashboard_FILL0_wght400_GRAD0_opsz24.svg"
+            alt=""
+          />Dashboard
+        </a>
+      </div>
+      <nav class="sidebar-navigation">
+        <ul>
+          <div class="nav-section">
+            <li>
+              <a href="#"
+                ><img
+                  src="./assets/icons/home_FILL0_wght400_GRAD0_opsz24.svg"
+                  alt=""
+                />Home</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="./assets/icons/person_FILL0_wght400_GRAD0_opsz24.svg"
+                  alt=""
+                />Profile</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="./assets/icons/chat_bubble_FILL0_wght400_GRAD0_opsz24.svg"
+                  alt=""
+                />Messages</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="./assets/icons/history_FILL0_wght400_GRAD0_opsz24.svg"
+                  alt=""
+                />History</a
+              >
+            </li>
+            <li>
+              <a href="#">
+                <img
+                  src="./assets/icons/task_FILL0_wght400_GRAD0_opsz24.svg"
+                  alt=""
+                />Tasks
+              </a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="./assets/icons/groups_FILL0_wght400_GRAD0_opsz24.svg"
+                  alt=""
+                />Communities</a
+              >
+            </li>
+          </div>
+          <div class="nav-section">
+            <li>
+              <a href="#"
+                ><img
+                  src="./assets/icons/settings_FILL0_wght400_GRAD0_opsz24.svg"
+                  alt=""
+                />
+                Settings</a
+              >
+            </li>
+
+            <li>
+              <a href="#">
+                <img
+                  src="./assets/icons/help_center_FILL0_wght400_GRAD0_opsz24.svg"
+                  alt=""
+                />Support</a
+              >
+            </li>
+
+            <li>
+              <a href="#"
+                ><img
+                  src="./assets/icons/verified_user_FILL0_wght400_GRAD0_opsz24.svg"
+                  alt=""
+                />Privacy</a
+              >
+            </li>
+          </div>
+        </ul>
+      </nav>
+    </div>
+    <main>
+      <section class="projects">
+        <h2>Your projects</h2>
+        <div class="project-container">
+          <div class="project">
+            <h3>Super cool project</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel,
+              temporibus eos fugiat consequatur laborum nam inventore distinctio
+              quam eum asperiores eligendi cupiditate adipisci molestiae
+              provident nihil! Possimus totam illo dolorem!
+            </p>
+            <div class="project-actions action-icon-buttons">
+              <ul>
+                <li>
+                  <button class="icon">
+                    <img
+                      src="./assets/icons/favorite_FILL0_wght400_GRAD0_opsz24.svg"
+                      alt="toggle favorite project"
+                    />
+                  </button>
+
+                  <button class="icon">
+                    <img
+                      src="./assets/icons/hide_source_FILL0_wght400_GRAD0_opsz24.svg"
+                      alt="toggle project visibility"
+                    />
+                  </button>
+
+                  <button class="icon">
+                    <img
+                      src="./assets/icons/share_FILL0_wght400_GRAD0_opsz24.svg"
+                      alt="share project"
+                    />
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="project">
+            <h3>Super cool project</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel,
+              temporibus eos fugiat consequatur laborum nam inventore distinctio
+              quam eum asperiores eligendi cupiditate adipisci molestiae
+              provident nihil! Possimus totam illo dolorem!
+            </p>
+            <div class="project-actions action-icon-buttons">
+              <ul>
+                <li>
+                  <button class="icon">
+                    <img
+                      src="./assets/icons/favorite_FILL0_wght400_GRAD0_opsz24.svg"
+                      alt="toggle favorite project"
+                    />
+                  </button>
+
+                  <button class="icon">
+                    <img
+                      src="./assets/icons/hide_source_FILL0_wght400_GRAD0_opsz24.svg"
+                      alt="toggle project visibility"
+                    />
+                  </button>
+
+                  <button class="icon">
+                    <img
+                      src="./assets/icons/share_FILL0_wght400_GRAD0_opsz24.svg"
+                      alt="share project"
+                    />
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="project">
+            <h3>Super cool project</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel,
+              temporibus eos fugiat consequatur laborum nam inventore distinctio
+              quam eum asperiores eligendi cupiditate adipisci molestiae
+              provident nihil! Possimus totam illo dolorem!
+            </p>
+            <div class="project-actions action-icon-buttons">
+              <ul>
+                <li>
+                  <button class="icon">
+                    <img
+                      src="./assets/icons/favorite_FILL0_wght400_GRAD0_opsz24.svg"
+                      alt="toggle favorite project"
+                    />
+                  </button>
+
+                  <button class="icon">
+                    <img
+                      src="./assets/icons/hide_source_FILL0_wght400_GRAD0_opsz24.svg"
+                      alt="toggle project visibility"
+                    />
+                  </button>
+
+                  <button class="icon">
+                    <img
+                      src="./assets/icons/share_FILL0_wght400_GRAD0_opsz24.svg"
+                      alt="share project"
+                    />
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <aside class="site-highlights">
+        <section class="announcements">
+          <h2>Announcements</h2>
+          <div class="announcements-list">
+            <ul>
+              <li>
+                <h3>Site maintenance</h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </li>
+
+              <li>
+                <h3>Site maintenance</h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </li>
+
+              <li>
+                <h3>Site maintenance</h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="trending">
+          <div class="trending-list">
+            <ul>
+              <li class="user-card">
+                <img
+                  src="http://www.github.com/cauanoli.png"
+                  alt="user profile image"
+                />
+
+                <div class="user-info">
+                  <h3 class="user-tag">User tag</h3>
+                  <p class="user-description">Lorem ipsum dolor sit.</p>
+                </div>
+              </li>
+              <li class="user-card">
+                <img
+                  src="http://www.github.com/cauanoli.png"
+                  alt="user profile image"
+                />
+
+                <div class="user-info">
+                  <h3 class="user-tag">User tag</h3>
+                  <p class="user-description">Lorem ipsum dolor sit.</p>
+                </div>
+              </li>
+              <li class="user-card">
+                <img
+                  src="http://www.github.com/cauanoli.png"
+                  alt="user profile image"
+                />
+
+                <div class="user-info">
+                  <h3 class="user-tag">User tag</h3>
+                  <p class="user-description">Lorem ipsum dolor sit.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </aside>
+    </main>
+  </body>
+</html>
