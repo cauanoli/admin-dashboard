@@ -132,6 +132,9 @@ header .projects-actions ul {
   display: grid;
   grid-template-rows: 80px 1fr;
   padding: 16px;
+  box-shadow: 2px 0px 6px -3px rgba(135, 135, 135, 0.75);
+  -webkit-box-shadow: 2px 0px 6px -3px rgba(135, 135, 135, 0.75);
+  -moz-box-shadow: 2px 0px 6px -3px rgba(135, 135, 135, 0.75);
 }
 
 .sidebar a {
