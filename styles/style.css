@@ -1,0 +1,66 @@
+@import url("./reset.css");
+@import url("./variables.css");
+
+body {
+  font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  min-height: 100vh;
+  background-color: var(--bg-grey);
+  display: grid;
+  grid-template-columns: minmax(200px, 1fr) 4fr;
+  grid-template-rows: minmax(200px, minmax(1fr, 100vh)) 5fr;
+  grid-template-areas:
+    "sidebar header"
+    "sidebar main";
+}
+
+header {
+  grid-area: header;
+  display: grid;
+  grid-template-rows: 80px 80px;
+  padding: 8px;
+  background-color: var(--bg-light);
+}
+
+.sidebar {
+  grid-area: sidebar;
+  background-color: var(--bg-grey);
+  color: var(--text-light-bg);
+  display: grid;
+  grid-template-rows: 80px 1fr;
+  padding: 16px;
+}
+
+.sidebar a {
+  color: var(--text-light-bg);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.sidebar .sidebar-navigation a:hover,
+.sidebar .sidebar-navigation a.active {
+  background-color: var(--primary-color);
+}
+
+.sidebar a img {
+  fill: var(--text-primary-bg);
+}
+
+.sidebar-navigation ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.sidebar .logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+main {
+  grid-area: main;
+}
